@@ -1,0 +1,34 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body,
+button,
+input,
+select {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #009f91;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #c9f4ed;
+  color: #173c39;
+}
